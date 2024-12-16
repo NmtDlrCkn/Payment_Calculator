@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root
+{
+    --lime: hsl(61, 70%, 52%);
+    --red: hsl(4, 69%, 50%);
+    --white: hsl(0, 0%, 100%);
+    --slate-100: hsl(202, 86%, 94%);
+    --slate-300: hsl(203, 41%, 72%);
+    --slate-500: hsl(200, 26%, 54%);
+    --slate-700: hsl(200, 24%, 40%);
+    --slate-900: hsl(202, 55%, 16%);
+
+    --font-size: 16px;
+    --family-1: "Plus Jakarta Sans", sans-serif;
+    --weights-500: 500;
+    --weights-700: 700;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--family-1);
+    font-size: var(--font-size);
+}
+
+body {
+    background-color: var(--slate-100);
+    color: var(--slate-900);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; 
+    margin: 0;
+}
+
+section {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 2rem;
+    border-radius: 2rem; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 2rem;
+    max-width: 800px;
+}
+form{
+    width: 100%;
+    padding: 1.2rem;      
+}
+div.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+h3.mortgage{
+    color: var(--slate-900);
+    font-weight: var(--weights-700);
+}
+a{
+    color: var(--slate-700);
+    font-size: .8rem;
+}
+div.amount{
+    padding: 1rem 0;
+}
+
+#mortgageAmount{
+    width: 100%;
+    padding:0.4rem;
+    border-radius: 6px;
+    margin: 8px 0;
+}
+
+
+
